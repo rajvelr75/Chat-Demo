@@ -8,7 +8,7 @@ const Profile = () => {
   const navigate = useNavigate(); // Use for navigation
 
   // State to handle the "About" section
-  const [about, setAbout] = useState("Hey Guys,I am using Chat App!");
+  const [about] = useState("Hey Guys, I am using Chat App!");
   const [isEditingName, setIsEditingName] = useState(false);
   const [isEditingEmail, setIsEditingEmail] = useState(false);
 
